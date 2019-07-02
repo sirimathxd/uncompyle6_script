@@ -29,3 +29,4 @@ Ca dit bien qu'il trouve le bon module
 Mais en fait de toute faàon uncompyle6 est fait pour etre appelé depuis le bash...sinon je vais me taper toutes les petites méthodes a faire et à répeter le programme
 
 
+/home/sapharic/Desktop/aa/test.sh /home/sapharic/Desktop/python_source/stockvt/encodings
