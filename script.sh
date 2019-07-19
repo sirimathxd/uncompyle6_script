@@ -1,5 +1,3 @@
-echo dezfezfezfze
-
 cd $1
 
 for file in *;do
