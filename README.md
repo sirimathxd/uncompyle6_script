@@ -1,32 +1,32 @@
 # uncompyle6_script
-batch to uncompile python bytecode
 
-sudo apt-get install python3-pip
+## Installation
 
-obligatoire deja pour ne pas installer pip dans la version python2 qui est par défaut sur linux (car il reste pleind e code en python2 dans linux)
-Nous on travaille avec python3. On suppose que seule une version de python3 est instalé sinon ca peut etre plus galre.
+To install pip
 
-pip3 install uncompyle6
+> sudo apt-get install python3-pip
 
-On install uncompyle6 dans notre python3
+To install uncompyle6
 
-pip3 freeze
-Cela montre beaucoup de modules installé dans python3
+> pip3 install uncompyle6
 
-pip freeze
-il y en a moins (c'est python2)
+It's important to well precise python3 as on ubuntu you always have python2 installed.
+We suppose you have only one version of python3 installed.
 
-pip3 show uncompyle6
-Cela montre que uncompyle s'est installé dans home
+To check all modules installed on python3 : 
 
-C'est installé dans python3. On peut le vérifier en faisant dans le terminal
+> pip3 freeze
+
+To check precisel the uncompyle 6 module
+
+> pip3 show uncompyle6
+
+Another simple way to check that unocmpyle6 is well installed is to write in bash : 
+
 python3
 import uncompyle6
 uncompyle6.version
-Ca dit bien qu'il trouve le bon module
 
+To call the script 
 
-Mais en fait de toute faàon uncompyle6 est fait pour etre appelé depuis le bash...sinon je vais me taper toutes les petites méthodes a faire et à répeter le programme
-
-
-/home/sapharic/Desktop/aa/test.sh /home/sapharic/Desktop/python_source/stockvt/encodings
+> /home/sapharic/Desktop/aa/test.sh /home/sapharic/Desktop/python_source/stockvt/encodings
